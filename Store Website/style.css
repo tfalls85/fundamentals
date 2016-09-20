@@ -33,6 +33,7 @@ nav a {
 	font-size: 30px;
 	display: inline-block;
 	width: 125px;
+	transition: all 0.3s ease;
 }
 
 nav a:hover {
@@ -89,32 +90,77 @@ nav a:hover {
 	padding: 0;
 }
 
-/*.droids {
+.droids {
 	background: url("img/droid_shop.jpg");
 	width: 33%;
-	height: auto;
+	height: 400px;
 	float: left;
+}
+
+.droids p {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	border: 2px solid #333333;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
 .tshirts {
 	background: url("img/droid_tshirt.jpg");
 	width: 33%;
-	height: auto;
+	height: 400px;
 	float: left;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.tshirts p {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	border: 2px solid #333333;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.4);
 }
 
 .stickers {
 	background: url("img/droid_sticker.jpg");
 	width: 33%;
-	height: auto;
+	height: 400px;
 	float: left;
-}*/
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.stickers p {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+	border: 2px solid #333333;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+}
+
+.stickers p:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.stickers a {
+	text-decoration: none;
+	color: #333333;
+}
+
 /* Blog */
 
 /* Contact */
 .contact {
 	clear: left;
 	padding: 30px;
+	font-size: 24px;
 }
 
 .contact button {
@@ -125,6 +171,11 @@ nav a:hover {
 	background-color: #333333;
 	color: white;
 }
+
+.contact input {
+	width: 300px;
+}
+
 
 /* Footer */
 footer {
