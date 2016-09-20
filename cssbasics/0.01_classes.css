@@ -1,0 +1,37 @@
+body {
+	background-color:limegreen;
+}
+
+.css-classes {
+	color: white;
+}
+
+.css-classes p {
+	color: darkgreen;
+}
+
+.css-classes b {
+	color: red;
+}
+
+.test {
+	background-color: lightgray;
+	color: white;
+	padding: 10px;
+}
+
+.test h1 {
+	color: lightblue;
+	background-color: darkblue;
+	padding: 10px;
+	margin: -10px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.important {
+	background-color: darkblue;
+	padding: 10px;
+	margin: -10px;
+}
+
