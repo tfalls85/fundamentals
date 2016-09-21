@@ -45,10 +45,11 @@ nav a:hover {
 
 /* Banner */
 .banner {
+	clear: both;
 	width: 100%;
-	height: 500px;
-	background: url("img/indy_droid_banner.png");
-	background-repeat: no-repeat;
+	height: 600px;
+	/*background: url("img/indy_droid_banner_2.jpg");
+	background-repeat: no-repeat;*/
 	margin-top: 0px;
 }
 
@@ -61,8 +62,9 @@ nav a:hover {
 /* About */
 .about {
 	width: 100%;
+	height: 600px;
 	background: url("img/Indy_Droids_Peace.jpg");
-	background-size: 400px 400px;
+	background-size: 610px 610px;
 	background-repeat: no-repeat;
 }
 
