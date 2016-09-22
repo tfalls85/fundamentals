@@ -83,6 +83,7 @@ function addBills (mortgage, phone, internet) {
 console.log(addBills(800, 150, 25));
 
 //Gold
+//My Try
 function costCalc (sodas) {
 	var beforeTax = (sodas * .99)
 	return beforeTax + (beforeTax * 0.07)
@@ -90,6 +91,7 @@ function costCalc (sodas) {
 
 console.log(costCalc(100));
 
+//Explained Way
 function calculatePrice (quantity, cost, item, tax) {
 	var tax = 0.07;
 	var totalTax = (quantity * cost * tax);
