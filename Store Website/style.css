@@ -1,14 +1,24 @@
 body {
 	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Baloo Bhai', cursive;
+}
+
+p {
+	font-family: sans-serif;
 }
 
 /* Header */
 header {
+	margin: 0;
 	width: 100%;
 	max-width: 1280px;
 	height: 100px;
 	background-color: #333333;
-	position: fixed;
+	/*position: fixed;*/
 }
 
 header img {
@@ -24,6 +34,8 @@ nav {
 	padding: 30px;
 	text-align: center;
 	position: relative;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 nav p {
@@ -52,29 +64,41 @@ nav a:hover {
 .banner {
 	clear: both;
 	width: 100%;
+	height: 500px;
+	background: url("img/indy_droid_banner_2.jpg") center top no-repeat;
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	margin-top: 0;
+	padding: 0;
+}
+
+.bannerText {
+	width: 33%;
 	height: auto;
-	/*background: url("img/indy_droid_banner_2.jpg");*/
-	background-repeat: no-repeat;
-	margin-top: 0px;
+	padding: 50px;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .banner h1 {
-	text-align: center;
 	font-size: 40px;
-	color: white;
+	color: #333333;
 }
 
-.banner img {
+.banner p {
+
+}
+
+/*.banner img {
 	max-width: 1280px;
 	width: 100%;
-	height: auto;
+	height: auto;*/
 }
 
 /* About */
 .about {
 	width: 100%;
 	height: 600px;
-	background: url("img/Indy_Droids_Peace.jpg");
+	background: url("img/Indy_Droids_Peace.jpg")left top no-repeat;
 	background-size: 610px 610px;
 	background-repeat: no-repeat;
 }
