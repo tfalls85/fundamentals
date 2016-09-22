@@ -81,3 +81,34 @@ function addBills (mortgage, phone, internet) {
 }
 
 console.log(addBills(800, 150, 25));
+
+//Gold
+function costCalc (sodas) {
+	var beforeTax = (sodas * .99)
+	return beforeTax + (beforeTax * 0.07)
+}
+
+console.log(costCalc(100));
+
+function calculatePrice (quantity, cost, item, tax) {
+	var tax = 0.07;
+	var totalTax = (quantity * cost * tax);
+	var totalPrice = quantity * cost + totalTax;
+	return quantity + " " + item + " will cost you $" + totalPrice.toFixed(2);
+}
+
+console.log(calculatePrice(100, .99, "soda", 0.07));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
