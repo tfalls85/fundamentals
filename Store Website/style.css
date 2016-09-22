@@ -5,6 +5,7 @@ body {
 
 h1 {
 	font-family: 'Baloo Bhai', cursive;
+	font-size: 30px;
 }
 
 p {
@@ -31,17 +32,11 @@ header img {
 nav {
 	float: right;
 	display: inline-block;
-	padding: 30px;
+	padding: 40px 30px 30px 30px;
 	text-align: center;
 	position: relative;
-	margin-top: auto;
-	margin-bottom: auto;
 }
 
-nav p {
-	display: inline;
-	width: 75px;
-}
 
 nav a {
 	text-decoration: none;
@@ -64,11 +59,11 @@ nav a:hover {
 .banner {
 	clear: both;
 	width: 100%;
-	height: 500px;
-	background: url("img/indy_droid_banner_2.jpg") center top no-repeat;
+	height: auto;
+	background: url("img/indy_droid_banner_2.jpg") center center no-repeat;
 	background-size: cover;
 	/*background-repeat: no-repeat;*/
-	margin-top: 0;
+	margin: 0;
 	padding: 0;
 }
 
@@ -80,7 +75,6 @@ nav a:hover {
 }
 
 .banner h1 {
-	font-size: 40px;
 	color: #333333;
 }
 
@@ -88,27 +82,24 @@ nav a:hover {
 
 }
 
-/*.banner img {
-	max-width: 1280px;
-	width: 100%;
-	height: auto;*/
-}
 
 /* About */
 .about {
+	clear: both;
 	width: 100%;
-	height: 600px;
-	background: url("img/Indy_Droids_Peace.jpg")left top no-repeat;
+	height: auto;
+	background: url("img/Indy_Droids_Peace.jpg") left top;
 	background-size: 610px 610px;
 	background-repeat: no-repeat;
+	float: right;
 }
 
 .about-text {
 	width: 50%;
+	height: auto;
 	padding: 50px;
 	margin: 0;
 	background-color: rgba(255, 255, 255, 0.9);
-	vertical-align: middle;
 }
 
 .about h1 {
@@ -116,63 +107,14 @@ nav a:hover {
 	color: #333333;
 }
 
-/*.instagram-feed {
-	width: 38%;
-	border: 5px solid #4d4d4d;
-	float: right;
-	position: relative;
-	margin: 30px;
-}
-
-#instagram-img {
-	width: 100%;
-	float: right;
-}*/
-
 /* Shop */
 .shop {
 	width: 100%;
+	background-color: #333333;
 }
 
 .droids {
-	background: url("img/droid_shop.jpg");
-	width: 33.33%;
-	height: 500px;
-	float: left;
-}
-
-.droids a {
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 20px;
-	border: 5px solid #ffffff;
-	padding: 50px;
-	width: 150px;
-	background-color: rgba(255, 255, 255, 0.4);
-}
-
-.tshirts {
-	background: url("img/droid_tshirt.jpg");
-	width: 33.33%;
-	height: auto;
-	float: left;
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 40px;
-}
-
-.tshirts a {
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 40px;
-	border: 2px solid #333333;
-	padding: 50px;
-	background-color: rgba(255, 255, 255, 0.4);
-}
-
-.stickers {
-	background: url("img/droid_sticker.jpg");
-	max-width: 400px;
+	background: url("img/droid_shop.jpg") center top no-repeat;
 	width: 33.33%;
 	height: 400px;
 	float: left;
@@ -181,9 +123,66 @@ nav a:hover {
 	font-size: 40px;
 }
 
-.stickersBtn {
-	width: 200px;
-	height: 75px;
+.droids a {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	color: #333333;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	border: 3px solid #ffffff;
+	/*border-radius: 5px;*/
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+}
+
+.droids a:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.tshirts {
+	background: url("img/droid_tshirt.jpg") center center no-repeat;
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.tshirtsBtn {
+	padding: 0px 0px 0px 0px;
+}
+
+.tshirts a {
+	text-align: center;
+	text-decoration: none;
+	color: #333333;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	border: 3px solid #ffffff;
+	/*border-radius: 5px;*/
+	padding: 10px 20px 10px 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+	transition: all 0.3s ease;
+}
+
+.tshirts a:hover {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.stickers {
+	background: url("img/droid_sticker.jpg") center center no-repeat;
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 40px;
 }
 
 .stickers a {
@@ -193,7 +192,7 @@ nav a:hover {
 	font-family: sans-serif;
 	font-size: 20px;
 	font-weight: bold;
-	border: 5px solid #ffffff;
+	border: 3px solid #ffffff;
 	/*border-radius: 5px;*/
 	padding: 10px 20px 10px 20px;
 	background-color: rgba(255, 255, 255, 0.4);
