@@ -4,16 +4,23 @@
 	<title>Indy Droids</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- NOTE: Need these links for bootstrap https://www.bootstrapcdn.com/ -->
+  	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <!-- jQuery script must be loaded before Boostrap
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
 </head>
-<body>
+<body id="page-top">
 	<header>
-		<a href="home"><img src="img/indy_droid_logo.png"></a>
-		<nav>
+		<a href="#page-top"><img src="img/indy_droid_logo.png"></a>
+		<nav id="mainNav">
 
-				<a href="#">About</a> 
-				<a href="#">Shop</a> 
-				<a href="#">Blog</a> 
-				<a href="#">Contact</a>
+				<a href="#about">About</a> 
+				<a href="#shop">Shop</a> 
+				<a href="#blog">Blog</a> 
+				<a href="#contact">Contact</a>
 
 		</nav>
 	</header>
@@ -34,7 +41,7 @@
 		<!-- <img src="img/indy_droid_banner_2.jpg"> -->
 	</section>
 
-	<section class="about">
+	<section id="about">
 		<div class="about-text">
 			<h1>We are Indy Droids!</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -53,39 +60,75 @@
 		</div>
 	</section>
 
-	<section class="shop">
+	<section id="shop">
 		<div class="droids">
 			<!-- <img src="img/droid_shop.jpg"> -->
-			<a class="droidsBtn" href="#">Droid Shop</a>
+			<a class="merchBtn" href="#">Droid Shop</a>
 		</div>
 		<div class="tshirts">
 			<!-- <img src="img/droid_tshirt.jpg"> -->
-			<a class="tshirtsBtn" href="#">T-Shirts</a>
+			<a class="merchBtn" href="#">T-Shirts</a>
 		</div>
 		<div class="stickers">
 			<!-- <img src="img/droid_sticker.jpg"> -->
-			<a class="stickersBtn" href="#">Stickers</a>
+			<a class="merchBtn" href="#">Stickers</a>
+		</div>		
+	</section>
+
+	<section id="blog">
+		<div class="blog-text">
+			<h1>Latest Blog Post</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		</div>
-		
 	</section>
 
-	<section class="blog">
-		
-	</section>
-
-	<section class="contact">
+	<section id="contact">
 		<form>
 			<legend>Contact Information</legend>
-			<p><label>Name <input /></label></p>
-			<p><label>Email <input type=email /></label></p>
-			<p><label>Telephone <input type=tel /></label></p>
-			<button type="submit">Submit</button>
+			<p><label>Name</label></p>
+			 <input />
+			<p><label>Email</label></p>
+			<input type=email />
+			<p><label>Telephone</label></p>
+			<input type=tel />
+			<p><label>How can we help? </label></p>
+			<textarea></textarea>
 		</form>
+		<button>Submit</button>
 	</section>
 
 	<footer>
-		<
+		<div class="copyRight">
+			<p>&copy; 2016 Indy Droids, Inc. | All rights reserved | Website by <a href="http://www.travisfallsdesigns.com">Travis Falls Designs</a></p>
+			<p>
+				<a href="#">About</a> | 
+				<a href="#">Privacy Policy</a> | 
+				<a href="#">Contact Us</a>
+			</p>
+		</div>
+		<div class="soc-buttons">
+			<span class="insta-button icon"><a href="https://www.instagram.com/indy_droids/" target="_blank">Instagram</a></span>
+			<span class="twitter-button icon"><a href="https://twitter.com/indy_droids" target="_blank">Twitter</a></span>
+		</div>
 	</footer>
-
 </body>
 </html>
