@@ -1,8 +1,7 @@
-.container {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	position: relative;
+.container-fluid.full-width {
+	padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
 }
 
 .shop {
@@ -12,8 +11,6 @@
 }
 
 #droids-shop {
-	background: url('img/droid_shop.jpg') center center no-repeat
-	;
 	margin: 0;
 	text-align: center;
 	font-family: 'Baloo Bhai', cursive;
