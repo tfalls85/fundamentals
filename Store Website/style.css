@@ -1,5 +1,5 @@
 body {
-	margin: 0px 0px 0px 0px;
+	margin: 0;
 	padding: 0;
 }
 
@@ -29,6 +29,26 @@ header img {
 	padding: 12.5px;
 	float: left;
 	position: absolute;
+}
+
+.backTop {
+	width: 75px;
+	height: 25px;
+	border-radius: 3px 0px 0px 3px;
+	padding: 5px 0px 0px 10px;
+	float: right;
+	position: fixed;
+	bottom: 100px;
+	right: 0px;
+	background-color: #ffc600;
+	z-index: 1;
+}
+
+.backTop-btn a {
+	text-decoration: none;
+	color: #333333;
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 14px;
 }
 
 #mainNav {
@@ -267,7 +287,7 @@ footer {
 }
 
 .soc-buttons {
-	height: 75px;
+	height: 60px;
 	padding: 0px 20px 0px 20px;
 	position: relative;
 	top: 35%;
@@ -306,6 +326,8 @@ span.twitter-button a:hover {
 	background-position: 0px -30px;
 	overflow: hidden;
 }
+
+
 
 
 
