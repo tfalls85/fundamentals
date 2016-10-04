@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"B",
+				"Bhai"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
 				"al",
 				"text-align"
 			],
@@ -31,6 +59,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5163,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "smooth-scrolling.js",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 5132,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -67,8 +119,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/Travis/Desktop/fundamentals/Store Website"
+	],
 	"file_history":
 	[
+		"/Users/Travis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Travis/Downloads/storeprojectexamples-master/0.02_example_journal/StoreFrontExampleWithCSS.html",
+		"/Users/Travis/Downloads/storeprojectexamples-master/0.03_example_robots_donuts/index.html",
 		"/Users/Travis/Desktop/fundamentals/cssbasics/0.02_ids.css",
 		"/Users/Travis/Desktop/fundamentals/cssbasics/0.02_ids.html",
 		"/Users/Travis/Desktop/fundamentals/cssbasics/0.01_classes.html",
@@ -87,12 +146,11 @@
 		"/Users/Travis/Desktop/fundamentals/htmlbasics/0.02_handptags.html",
 		"/Users/Travis/Desktop/fundamentals/htmlbasics/0.03_lists.html",
 		"/Users/Travis/Desktop/fundamentals/htmlbasics/0.04_Links.html",
-		"/Users/Travis/Desktop/fundamentals/htmlbasics/0.05_images.html",
-		"/Users/Travis/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+		"/Users/Travis/Desktop/fundamentals/htmlbasics/0.05_images.html"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -128,8 +186,99 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4776,
+								4776
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "smooth-scrolling.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1151,
+								1151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 7.0,
+						"translation.y": 471.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -150,11 +299,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.532397083897,
 			1.0
 		],
 		"rows":
@@ -210,7 +366,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 235.0,
+	"side_bar_width": 239.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

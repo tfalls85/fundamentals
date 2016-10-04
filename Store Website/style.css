@@ -81,7 +81,6 @@ header img {
 /* Banner */
 .banner {
 	width: 100%;
-	max-width: 1280px;
 	height: 600px;
 	background: url("img/indy_droid_banner_2.jpg") center center no-repeat;
 	background-size: cover;
@@ -242,6 +241,10 @@ legend {
 #contact button:hover {
 	background-color: #333333;
 	color: white;
+}
+
+#contact button:focus {
+	background-color: #666666;
 }
 
 #contact input {
